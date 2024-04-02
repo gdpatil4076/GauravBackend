@@ -6,4 +6,6 @@ const responseFunction = (res, status, message, data, ok) => {
     });
 }
 
+console.log("HI");
+
 module.exports = responseFunction;
