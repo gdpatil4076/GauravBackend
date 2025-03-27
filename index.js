@@ -36,7 +36,7 @@ const server = createServer(app);
 
 
 
-const allowedOrigins = [process.env.FRONTEND_URL]; // Add more origins as needed
+const allowedOrigins = [*]; // Add more origins as needed
 app.use(
     cors({
         origin: function (origin, callback) {
