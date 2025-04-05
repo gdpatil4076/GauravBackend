@@ -32,8 +32,8 @@ const mailer = async (recieveremail, code) => {
         secure: false,
         requireTLS: true,
         auth: {
-            user: process.env.COMPANY_EMAIL,
-            pass: process.env.GMAIL_APP_PASSWORD
+            user: "gauravpatil4076@gmail.com",
+            pass: "ipvppibscwkrotjo"
         }
     })
 
